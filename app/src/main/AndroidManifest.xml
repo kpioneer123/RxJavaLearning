@@ -16,10 +16,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name= ".demo1.lesson1.Lesson3_1Activity"/>
-        <activity android:name= ".demo1.lesson5.Lesson3_5Activity"/>
-        <activity android:name= ".demo1.lesson6.Lesson3_6Activity"/>
-        <activity android:name= ".demo1.lesson7.Lesson3_7Activity"/>
+        <activity android:name=".demo1.Lesson1_1Activity" />
+        <activity android:name=".demo1.Lesson1_2Activity" />
+        <activity android:name=".demo1.Lesson1_3Activity" />
+        <activity android:name=".demo1.Lesson1_4Activity" />
+        <activity android:name=".demo2.Lesson2_1Activity" />
+        <activity android:name=".demo2.Lesson2_2Activity" />
+        <activity android:name=".demo2.Lesson2_3Activity" />
+        <activity android:name=".demo2.Lesson2_4Activity" />
     </application>
 
 </manifest>

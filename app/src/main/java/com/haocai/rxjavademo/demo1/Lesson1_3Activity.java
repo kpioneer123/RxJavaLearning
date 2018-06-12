@@ -1,4 +1,4 @@
-package com.haocai.rxjavademo.demo1.lesson6;
+package com.haocai.rxjavademo.demo1;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -15,16 +15,16 @@ import butterknife.ButterKnife;
 import butterknife.OnClick;
 
 
-public class Lesson3_6Activity extends AppCompatActivity {
+public class Lesson1_3Activity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_lesson3_6);
+        setContentView(R.layout.activity_custom_test);
         ButterKnife.bind(this);
     }
 
-    @OnClick(R.id.async)
+    @OnClick(R.id.testDo)
     public void onViewClicked() {
         Caller.create(new CallerOnCall<String>() {
             @Override

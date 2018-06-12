@@ -15,4 +15,12 @@ public abstract class Caller<T> {
     }
 
     protected abstract void callActual(Callee<T> callee);
+
+    public <R> Caller<R> lift(CallerOperator<R, T> operator) {
+        return new CallerLift<>(this, operator);
+    }
+
+    public <R> Caller<R> map(Function<T, R> function) {
+        return new CallerMap<>(this, function);
+    }
 }

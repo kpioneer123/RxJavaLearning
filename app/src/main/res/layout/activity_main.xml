@@ -17,52 +17,52 @@
             android:orientation="vertical">
 
             <Button
-                android:id="@+id/btnLesson3_1"
+                android:id="@+id/btnLesson1_1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Lesson3_1"/>
+                android:text="Lesson1_1"/>
 
             <Button
-                android:id="@+id/btnLesson3_5"
+                android:id="@+id/btnLesson1_2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Lesson3_5"/>
+                android:text="Lesson1_2"/>
 
             <Button
-                android:id="@+id/btnLesson3_6"
+                android:id="@+id/btnLesson1_3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Lesson3_6"/>
+                android:text="Lesson1_3"/>
 
             <Button
-                android:id="@+id/btnLesson3_7"
+                android:id="@+id/btnLesson1_4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Lesson3_7"/>
+                android:text="Lesson1_4"/>
 
             <Button
-                android:id="@+id/btnLesson4_1"
+                android:id="@+id/btnLesson2_1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Lesson4_1"/>
+                android:text="Lesson2_1"/>
 
             <Button
-                android:id="@+id/btnLesson4_4"
+                android:id="@+id/btnLesson2_2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Lesson4_4"/>
+                android:text="Lesson2_2"/>
 
             <Button
-                android:id="@+id/btnLesson4_5"
+                android:id="@+id/btnLesson2_3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Lesson4_5"/>
+                android:text="Lesson4_3"/>
 
             <Button
-                android:id="@+id/btnLesson4_6"
+                android:id="@+id/btnLesson2_4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Lesson4_6"/>
+                android:text="Lesson2_4"/>
 
             <Button
                 android:id="@+id/btnLesson5_1"
