@@ -30,11 +30,18 @@ public class Caller<T> {
         return lift(new MapOperator<T, R>(func));
     }
 
-    public interface OnCall<T> extends Action1<Receiver<T>> {
+    public final Caller<T> callOn(Switcher switcher) {
+        return create(new OperatorCallOn<>(switcher, this));
+    }
 
+    public final Caller<T> callbackOn(Switcher switcher) {
+        return lift(new OperatorCallbackOn<T>(switcher));
+    }
+
+    public interface OnCall<T> extends Action1<Receiver<T>> {
     }
 
     public interface Operator<R, T> extends Func1<Receiver<R>, Receiver<T>> {
-
     }
+
 }

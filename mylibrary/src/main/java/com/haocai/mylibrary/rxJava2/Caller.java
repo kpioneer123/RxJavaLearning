@@ -23,4 +23,8 @@ public abstract class Caller<T> {
     public <R> Caller<R> map(Function<T, R> function) {
         return new CallerMap<>(this, function);
     }
+
+    public Caller<T> callOn(Switcher switcher) {
+        return new CallerCallOn<>(this, switcher);
+    }
 }

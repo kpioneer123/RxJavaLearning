@@ -24,6 +24,9 @@
         <activity android:name=".demo2.Lesson2_2Activity" />
         <activity android:name=".demo2.Lesson2_3Activity" />
         <activity android:name=".demo2.Lesson2_4Activity" />
+        <activity android:name=".demo3.Lesson3_1Activity" />
+        <activity android:name=".demo3.Lesson3_2Activity" />
+        <activity android:name=".demo3.Lesson3_3Activity" />
     </application>
 
 </manifest>
